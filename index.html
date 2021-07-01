@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS de Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Plantilla normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="./css/leaflet.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- Icono de navegador -->
+    <link rel="shortcut icon" type="imagenes/png" href="./imagenes/192x192.png">
+    <!-- Color de la aplicación -->
+    <meta name="theme-color" content=" #4CDAE5">
+    <!-- Optimización para movil -->
+    <meta name="MobileOptimized" content="width">  
+    <meta name="HandheldFriendly" content="true">
+    <!-- Meta etiquetas PWA para Apple -->
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes">  -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+    <link rel="apple-touch-icon" href="./imagenes/apple-touch-icon.png">    
+    <link rel="apple-touch-startup-image" href="#">
+    <!-- Configuración General PWA -->
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <link rel="manifest" href="appmanifest.webmanifest">
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+    <title>DAMERILO</title>
+    
+    <style>
+        .swiper-slide {
+          height: 45rem;
+          color: white;
+          background-position: center, center;
+          background-size: cover;
+        }
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        }
+      </style>
+    </head>
+<body>
+    <header>
+        <section id="barra-redes">
+            <div class="container-fluid bg-secondary text-center">
+                <div class="row justify-content-sm-between"> 
+                     <div class="col-12 col-sm-auto text-success"></div>                   
+                     <div class="col-12 col-sm-auto">
+                        <ul class="redes-sociales list-unstyled d-inline-flex">
+                            <li><a href="https://www.facebook.com/profile.php?id=100062322901739https://www.facebook.com/profile.php?id=100062322901739https://www.facebook.com/profile.php?id=100062322901739"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com//"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/watch?v=frNjBYk3SRw"><i class="fab fa-youtube"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="datos-generales" class="d-none d-md-block">
+             <div class="container-fluid bg-primary">
+                 <div class="row justify-content-md-between align-items-md-center">
+                     <div class="col-auto logo">
+                         <a href="#">
+                            <img src="./imagenes/logo2.png" alt="Logo" width="200" height="auto">
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav id="menu-navegacion" class="navbar navbar-dark bg-secondary navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span></button>
+                 <div id="contenido" class="collapse navbar-collapse">
+                    <div class="contenedor contenido-header">
+                        <div class="barra">
+                            <a href="/"> <img src="" alt=""></a>
+                            <nav class="navegacion"> 
+                                <a href="#">HOME</a>
+                                <a href="#Catálogos">CATÁLOGOS</a>
+                                <a href="#Productos">PRODUCTOS</a>
+                                <a href="#Contacto">CONTACTO</a>
+                            </nav>    
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+
+        <section id="animacion" class="d-flex justify-content-center align-items-center">           
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <p class="text-1">DAMERILO</p>                    
+                 </div>
+                 <div class="col-sm-12">
+                    <p class="text-2">Todo para tus eventos</p>                    
+                 </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="container py-5">
+         <section class="swiper-container mySwiper">
+            <div class="swiper-wrapper text-center">
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./imagenes/caja8.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Alajeros</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./imagenes/dulceros4.jpeg)">
+                 <div class="container">
+                     <div class="row">
+                         <div class="slogan col-12">
+                             <p>Dulceros</p>
+                         </div>
+                    </div>   
+                </div>
+            </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./imagenes/retrato.jpeg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Portarretratos</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./imagenes/pluma7.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Plumas</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+              
+            <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url(./imagenes/personalizados7.jpeg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="slogan col-12">
+                            <p>Personajes de Películas</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+          </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+         </section>
+    </section>
+  
+    <main id="Catálogos" class="container-fluid">
+         <h2 class="text-center mb-4 fw-light">CATÁLOGOS</h2>        
+         <div class="row">
+             <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-lg-0">
+                  <div class="razones card h-100"></div>
+             </div>
+         </div>
+
+    <section class="products-list">
+         <div class="product-item" category="Cajas de Madera">
+             <img src="imagenes/caja11.jpg" alt="">
+             <a href="#">CAJAS</a>
+         </div>
+         
+         <div class="product-item" category="PORTARRETRATO">
+             <img src="imagenes/porta6.jpg" alt="">
+             <a href="#">PORTARRETRATO</a>
+         </div>
+
+        <div class="product-item" category="KLINEERA">
+            <img src="imagenes/klineera.jpeg" alt="">
+            <a href="#">KLINEERA</a>               
+        </div>
+
+        <div class="product-item" category="ALCANCIA">
+            <img src="imagenes/alcancia.jpeg" alt="">
+            <a href="#">ALCANCIA</a>
+        </div>
+
+        <div class="product-item" category="DULCERO">
+            <img src="imagenes/caja2.jpg" alt="">
+            <a href="#">DULCERO</a>
+        </div>
+
+        <div class="product-item" category="ALAJEROS">
+            <img src="imagenes/ALAJEROS.jpeg" alt="">
+            <a href="#">ALAJEROS</a>
+        </div>
+    </section>
+
+    <main id="Productos" class="container-fluid">
+        <h2 class="text-center mb-4 fw-light">PRODUCTOS</h2>        
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="Catálogos card h-100">
+                    <img src="./imagenes/centro de mesa.jpeg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">CENTROS DE MESA</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $80-$300</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="Catálogos card h-100">
+                    <img src="./imagenes/esfera2.jpg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">ESFERAS</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $350 docena </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="Catálogos card h-100">
+                    <img src="./imagenes/esferas y cororas.jpg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">CORONAS</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $135-$250</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="Catálogos card h-100">
+                    <img src="./imagenes/personaizado7.jpg" alt="Article image" class="card-img-top rounded-pill shadow-lg">
+                    <div class="card-body text-center d-grid align-items-end">
+                        <h3 class="card-title">PERSONALIZADOS</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quibusdam perferendis, quo officiis facilis minus deserunt corrupti fuga, debitis quaerat repudiandae enim autem inventore alias harum asperiores tempora dolores corporis.</div>
+                        <p class="text-primary fw-bolder">Costos Aproximados: $120-$250</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="mapid"></div>
+    
+    <main id="Contacto" class="container-fluid">      
+        <div class="row">
+            <div class="container">
+                 <div class="form-top">
+                    <div class="Catalogo h-100">
+                    <h2>Contáctanos</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="form_reg" action=""></form>
+    <form class="form_reg" action="">
+         <input class="input" type="text" placeholder="&#128100; Nombre" required autofocus>
+         <input class="input" type="email" placeholder="&#9993; Email" required>
+         <input class="input" type="tel" placeholder="&#128222; Teléfono" required>
+         <input class="input" type="text" placeholder="&#8962; Dirección" required>
+                 <div class="btn_form">
+                     <input class="btn_submit" type="submit" value="REGISTRAR">
+                     <input class="btn_reset" type="reset" value="LIMPIAR">
+                </div>
+    </form>
+
+    <footer id="pie" class="small bg-secondary text-success">
+        <div class="container py-3 py-sm-5">
+             <div class="row">
+                 <div class="col-12 col-sm-6 col-md-3">
+                     <h6>ENLACES RÁPIDOS</h6>
+                     <ul class="list-unstyled">
+                         <li><a href="#">HOME</a></li>
+                         <li class="nav-item"><a class="nav-link" href="#Catálogos">CATÁLOGOS</a></li>
+                         <li><a href="#Productos">PRODUCTOS</a></li>                
+                         <li><a href="#Contacto">CONTACTO</a></li>
+                    </ul>
+                 </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                     <h6>SÍGUENOS</h6>
+                     <ul class="list-unstyled">
+                         <li><a href="https://www.facebook.com/people/Ale-Alvarado/100062322901739/"><i class="fab fa-fw fa-facebook"></i> FACEBOOK</a></li>           
+                         <li><a href="https://www.instagram.com//"><i class="fab fa-instagram"></i> INSTAGRAM</a></li>
+                         <li><a href="https://www.youtube.com/watch?v=frNjBYk3SRw"><i class="fab fa-youtube"></i> YOUTUBE</a></li>  
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                     <h6>INFORMACIÓN</h6>
+                     <ul class="list-unstyled">
+                         <li><a href="#">CALIDAD EN TODO</a></li>
+                         <li><a href="#">EXCELENTE TRABAJO</a></li>
+                         <li><a href="#">COMENTARIOS</a></li>
+                    </ul>
+                 </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                     <h6>NUESTRA UBICACIÓN</h6>
+                     <address>
+                            <strong>CALLE:CATEDRAL METROPOLITANA</strong><br>#244<br>C.P.57700, ESTADO DE MÉXICO<br>
+                            <i class="fas fa-fw fa-phone"></i> <a href="tel:56 2196 4523">+56 2196 4523</a><br>
+                     </address>
+                </div>
+
+                <ul class="list-inline mt-2 mb-0 text-center">
+                     <li class="list-inline-item">&copy; PROYECTO FINAL</li>
+                     <li class="list-inline-item">All rights reserved.</li>
+                </ul>
+            </div> 
+        </footer>
+    </header>
+
+
+    <!-- Carga de scripts JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>  
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/leaflet.js"></script>
+    <script src="./js/anime.min.js"></script>
+    <script src="./js/mis-scripts.js "></script> 
+</html>
